@@ -5,8 +5,16 @@ This project explores sentiment analysis on Sesotho and Setswana tweets using va
 
 ## Dataset
 
-- **Sesotho Tweets:** sesotho_tweets.csv
-- **Setswana Tweets:** setswana_tweets.csv
+### SAfriSenti-Corpus
+
+- ~**Sesotho Tweets:** sesotho_tweets.csv~
+- ~**Setswana Tweets:** setswana_tweets.csv~
+
+> [!NOTE]  
+> At the time of updating this repo it appears the SAfriSenti-Corpus Tweets dataset is no longer available from the orginal source and in compliance with ethical standards it will soon be removed from our repository
+
+### Sesotho news headlines dataset for sentiment analysis
+
 - **Transformed News Dataset:** Transformed_NewsSA_Dataset.csv
 
 ## Feature Extraction
@@ -37,9 +45,6 @@ This project explores sentiment analysis on Sesotho and Setswana tweets using va
   - STF-IDF + BPE
   - STF-IDF + Word Piece
 
-## Checkpoints
-
-Model checkpoints and training artifacts are saved in the results directory, with subfolders for each checkpoint (e.g., `checkpoint-1042/`, `checkpoint-2084/`, etc.).
 
 ## Usage
 
@@ -48,7 +53,7 @@ Model checkpoints and training artifacts are saved in the results directory, wit
 2. **Open the notebook:**  
    Open `stf_idf_evalutions.ipynb` in Jupyter or VS Code.
 3. **Run cells:**  
-   Execute the notebook cells to preprocess data, train models, and visualize results.
+   Execute the notebook cells to preprocess data, train models, and visualize results. Allow the notebook to run for 1 - 2 hours depending on hardware capabilities
 
 ## File Structure
 
