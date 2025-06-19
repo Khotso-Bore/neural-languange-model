@@ -68,4 +68,4 @@ If you use this work, please cite the notebook and datasets accordingly.
 
 ---
 
-For details, see the full notebook: `stf_idf_evalutions.ipynb
+For details, see the full notebook: `stf_idf_evalutions.ipynb`
